@@ -1,0 +1,28 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+emy-network
+
+# Solidity / Hardhat / Truffle
+artifacts/
+cache/
+typechain/
+contracts/hardhat-network-metadata.json
+.openzeppelin/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Environments
+.env
+.env.local
+
+# IDEs
+.idea/
+.vscode/
+*.swp
