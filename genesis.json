@@ -1,24 +1,29 @@
 {
-  "genesis_time": "2025-01-01T00:00:00Z",
-  "chain_id": "emy-network-testnet-1",
-  "initial_height": "0",
-  "consensus_params": {
-    "block": {
-      "max_bytes": "22020096",
-      "max_gas": "-1"
+  "config": {
+    "chainId": 2026,
+    "homesteadBlock": 0,
+    "eip150Block": 0,
+    "eip155Block": 0,
+    "eip158Block": 0,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
+    "petersburgBlock": 0,
+    "istanbulBlock": 0,
+    "berlinBlock": 0,
+    "londonBlock": 0,
+    "nestBFT": {
+      "vdfDelay": 500,
+      "proofOfAgeEnabled": true
     }
   },
-  "app_state": {
-    "staking": {
-      "params": {
-        "bond_denom": "uemy",
-        "unbonding_time": "1814400s"
-      }
-    },
-    "gov": {
-      "voting_params": {
-        "voting_period": "172800s"
-      }
+  "difficulty": "1",
+  "gasLimit": "30000000",
+  "alloc": {
+    "0xAlamatWalletDeveloperAnda": {
+      "balance": "1000000000000000000000000"
     }
-  }
+  },
+  "timestamp": "0x69720000",
+  "extraData": "Emy Network: Hatching the Future of SocialFi",
+  "coinbase": "0x0000000000000000000000000000000000000000"
 }
