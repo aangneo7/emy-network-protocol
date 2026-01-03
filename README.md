@@ -19,4 +19,4 @@ Emy Network is a scalable, developer-centric Layer 1 blockchain designed to powe
 - `/scripts`: Deployment utilities
 
 
-test
+test change lagi
