@@ -25,4 +25,4 @@ contract EmyToken {
     }
 }
 
-feat: implement basic ERC20 logic for EMY token
+
