@@ -19,3 +19,5 @@ contract EmyToken is ERC20, Ownable {
         _burn(msg.sender, amount);
     }
 }
+
+feat: implement basic ERC20 logic for EMY token
