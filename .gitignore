@@ -1,28 +1,72 @@
-# Binaries for programs and plugins
+# === Kemanan & Rahasia (Sangat Penting!) ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+.secret
+credentials.json
+
+# === Binary & Executables (Hasil Build) ===
+bin/
+build/
+dist/
+out/
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-bin/
-emy-network
+# Binary spesifik Canopy
+canopy-node
+canopy-cli
 
-# Solidity / Hardhat / Truffle
-artifacts/
-cache/
-typechain/
-contracts/hardhat-network-metadata.json
-.openzeppelin/
-
-# Dependencies
-node_modules/
+# === Dependensi Go ===
 vendor/
+go.sum
+# Opsional: Beberapa tim memilih menyimpan go.sum, 
+# tapi vendor/ harus di-ignore jika menggunakan Go Modules.
 
-# Environments
-.env
-.env.local
+# === Dependensi Rust (Target) ===
+target/
+**/*.rs.bk
+Cargo.lock
+# Catatan: Cargo.lock biasanya disimpan untuk aplikasi (Mainnet), 
+# tapi di-ignore jika ini hanya library.
 
-# IDEs
-.idea/
-.vscode/
+# === Dependensi Node.js (Jika ada SDK/Dashboard) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# === File Log & Database Lokal ===
+*.log
+data/
+*.db
+*.sqlite
+# Folder data blockchain lokal agar tidak terunggah
+.canopy/
+testnet-data/
+
+# === Sistem Operasi ===
+.DS_Store
+Thumbs.db
+.directory
 *.swp
+*~
+
+# === Editor & IDE ===
+.vscode/
+.idea/
+*.sln
+*.swp
+*.swo
+.project
+.settings/
+
+# === Docker ===
+.docker/
+# Jangan ignore Dockerfile, tapi ignore data container
+**/data/db
