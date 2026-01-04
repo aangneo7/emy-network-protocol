@@ -1,23 +1,44 @@
-# Emy Network ($EMY) 🚀
-Emy Network is a scalable, developer-centric Layer 1 blockchain designed to power the next generation of SocialFi and decentralized consumer applications.
+# 🌳 Canopy Network: Layer 1 Mainnet
+> **Empowering Sovereign Chains with Bridge-less Interoperability.**
 
-## 🛠 Technical Overview
-- **Consensus:** Optimized Proof-of-Stake (PoS)
-- **Target Finality:** < 1 second
-- **Smart Contracts:** EVM Compatible (Solidity/Vyper)
-- **Goal:** Empowering 1-click chain deployments via Canopy infrastructure.
+[![Status: Betanet](https://img.shields.io/badge/Network-Betanet-blue.svg)](https://canopy.network)
+[![Mainnet: 2026](https://img.shields.io/badge/Mainnet-2026-orange.svg)](#)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 
-## 🗺 Roadmap
-- [x] Concept & Architecture Design
-- [ ] Whitepaper Release (In Progress)
-- [ ] Testnet Integration via Canopy Launchpad
-- [ ] Ecosystem Grant Program
+Canopy Network adalah protokol blockchain Layer 1 generasi berikutnya yang dirancang untuk menghapus hambatan antar rantai. Dengan teknologi **Bridge-less Interoperability**, kami memungkinkan komunikasi antar *Sovereign Chains* secara instan, aman, dan tanpa pihak ketiga.
 
-## 📂 Repository Structure
-- `/docs`: Technical specifications
-- `/contracts`: Core system smart contracts (Upcoming)
-- `/scripts`: Deployment utilities
+---
 
+## 🚀 Fitur Utama
 
-test change lagi
-update lagi
+### 🛡️ Shared Security
+Luncurkan Appchain atau Sovereign L1 Anda tanpa khawatir tentang infrastruktur validator. Manfaatkan keamanan kolektif dari validator Canopy Network sejak hari pertama.
+
+### ⚡ 10,000+ TPS
+Arsitektur kami dioptimalkan untuk performa tinggi. Validasi pada tahap Betanet telah membuktikan kapasitas pemrosesan lebih dari 10.000 transaksi per detik dengan latensi rendah.
+
+### 🔗 Bridge-less Interoperability
+Lupakan risiko jembatan (bridge) eksternal. Canopy menggunakan protokol komunikasi native yang memungkinkan transfer aset dan data antar sub-chain secara atomik dan aman.
+
+---
+
+## 🏗️ Struktur Ekosistem
+
+Canopy Network dibangun untuk mendukung berbagai jenis arsitektur blockchain:
+* **Appchains:** Rantai spesifik aplikasi yang sangat efisien.
+* **Sovereign L1s:** Blockchain mandiri dengan tata kelola sendiri yang tetap terhubung ke hub utama.
+* **Shared Security Hub:** Pusat validasi terdesentralisasi yang menjaga stabilitas seluruh ekosistem.
+
+---
+
+## 🛠️ Panduan Memulai (Quick Start)
+
+### Prasyarat
+- Go 1.21+ atau Rust 1.75+ (Tergantung modul yang digunakan)
+- Docker & Docker Compose
+- Minimum RAM 16GB untuk menjalankan Full Node
+
+### Instalasi
+```bash
+# Clone repositori
+git clone
