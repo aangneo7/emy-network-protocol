@@ -42,3 +42,6 @@ Canopy Network dibangun untuk mendukung berbagai jenis arsitektur blockchain:
 ```bash
 # Clone repositori
 git clone
+
+
+hari hari cuma gini
