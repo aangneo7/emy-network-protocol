@@ -70,3 +70,10 @@ Thumbs.db
 .docker/
 # Jangan ignore Dockerfile, tapi ignore data container
 **/data/db
+
+# Lingkungan (Environment)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
